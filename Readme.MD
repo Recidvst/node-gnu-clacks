@@ -1,4 +1,4 @@
-# GNU-clacks
+# Node GNU-clacks
 
 A man is not dead while his name is still spoken. Add an 'X-Clacks-Overhead' Header to your Node/Express app.
 
