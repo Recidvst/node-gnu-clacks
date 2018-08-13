@@ -8,19 +8,22 @@
  */
 
 module.exports = function(ghosts) {
-    if ( !Array.isArray(ghosts) ) return false;
     ghosts = ghosts || [];
 
-    ghosts.unshift('GNU Terry Pratchett');
-    ghosts = ghosts.join(', ').toString();
-
-    return function(req, res, next) {
-
-        if ( ghosts.length > 0 ) {        
-            res.setHeader('X-Clacks-Overhead', ghosts);
-        }
-
-        next();
-
+    if ( !Array.isArray(ghosts) ) return function(req, res, next) { 
+        res.setHeader('X-Clacks-Overhead', 'GNU Terry Pratchett');
+        next()
     }
+    else {
+        ghosts.unshift('GNU Terry Pratchett');
+        ghosts = ghosts.join(', ').toString(); 
+
+        return function(req, res, next) {    
+            if ( ghosts.length > 0 ) {        
+                res.setHeader('X-Clacks-Overhead', ghosts);
+            }    
+            next();    
+        }
+    }   
+       
 };
