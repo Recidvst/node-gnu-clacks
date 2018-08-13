@@ -1,0 +1,16 @@
+{
+  "name": "gnu-terry-pratchett",
+  "version": "1.0.0",
+  "description": "A man is not dead while his name is still spoken.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Recidvst/node-GNU-Terry-Pratchett.git"
+  },
+  "homepage": "https://github.com/Recidvst/node-GNU-Terry-Pratchett#readme",
+  "author": "Chris Snowden",
+  "license": "MIT"
+}
