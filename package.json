@@ -1,5 +1,5 @@
 {
-  "name": "gnu-terry-pratchett",
+  "name": "node-GNU-clacks",
   "version": "1.0.0",
   "description": "A man is not dead while his name is still spoken.",
   "main": "index.js",
@@ -11,6 +11,6 @@
     "url": "git+https://github.com/Recidvst/node-GNU-Terry-Pratchett.git"
   },
   "homepage": "https://github.com/Recidvst/node-GNU-Terry-Pratchett#readme",
-  "author": "Chris Snowden",
+  "author": "Chris Snowden <cdsnowden@gmail.com>",
   "license": "MIT"
 }
