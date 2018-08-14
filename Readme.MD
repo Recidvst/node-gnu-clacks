@@ -20,6 +20,6 @@ const app = express();
 const gnuHeader = require('gnu-clacks');
 
 app.use(gnuHeader());
-app.use(gnuHeader(['john', 'sally']));
+app.use(gnuHeader(['Moist', 'Adora', 'Reacher']));
 
 ```
