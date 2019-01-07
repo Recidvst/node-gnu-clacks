@@ -2,6 +2,14 @@
   "name": "node-gnu-clacks",
   "version": "1.0.1",
   "description": "A man is not dead while his name is still spoken.",
+  "keywords": [
+    "node",
+    "express",
+    "middleware",
+    "header",
+    "clacks",
+    "terry pratchett"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
