@@ -1,4 +1,4 @@
-# Node GNU-clacks
+# Node GNU Clacks
 
 A man is not dead while his name is still spoken. Add an 'X-Clacks-Overhead' Header to your Node/Express app.
 
@@ -17,9 +17,10 @@ See [http://www.gnuterrypratchett.com](http://www.gnuterrypratchett.com "GNU Ter
 const express = require('express');
 const app = express();
 
-const gnuHeader = require('gnu-clacks');
+const gnuHeader = require('node-gnu-clacks');
 
 app.use(gnuHeader());
+or
 app.use(gnuHeader(['Moist', 'Adora', 'Reacher']));
 
 ```

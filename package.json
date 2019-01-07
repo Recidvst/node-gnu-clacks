@@ -1,6 +1,6 @@
 {
-  "name": "node-GNU-clacks",
-  "version": "1.0.0",
+  "name": "node-gnu-clacks",
+  "version": "1.0.1",
   "description": "A man is not dead while his name is still spoken.",
   "main": "index.js",
   "scripts": {
