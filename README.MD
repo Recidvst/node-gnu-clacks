@@ -1,9 +1,13 @@
 
-# Node GNU Clacks
+# Node/Express GNU Clacks
 
 A man is not dead while his name is still spoken. Add an 'X-Clacks-Overhead' Header to your Node/Express app.
 
 See [http://www.gnuterrypratchett.com](http://www.gnuterrypratchett.com "GNU Terry Pratchett")
+
+[![npm](https://img.shields.io/npm/dt/node-gnu-clacks.svg)]()
+[![npm](https://img.shields.io/npm/v/node-gnu-clacks.svg)]()
+[![license](https://img.shields.io/github/license/recidvst/node-gnu-clacks.svg)]()
 
 ## Install
 - Install with [npm](https://www.npmjs.com/package/node-gnu-clacks "node-gnu-clack on NPM") or download and create your own module.
@@ -22,16 +26,12 @@ npm install node-gnu-clacks --save
 ```js
 
 const express = require('express');
-const app = express();
-
 const gnuHeader = require('node-gnu-clacks');
+
+const app = express();
 
 app.use(gnuHeader());
 or
 app.use(gnuHeader(['Moist', 'Adora', 'Reacher']));
 
 ```
-
-[![npm](https://img.shields.io/npm/dt/node-gnu-clacks.svg)]()
-[![npm](https://img.shields.io/npm/v/node-gnu-clacks.svg)]()
-[![license](https://img.shields.io/github/license/recidvst/node-gnu-clacks.svg)]()
