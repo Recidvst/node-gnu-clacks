@@ -12,7 +12,8 @@
   ],
   "main": "lib/express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   },
   "homepage": "https://github.com/Recidvst/node-GNU-Terry-Pratchett#readme",
   "author": "Chris Snowden <cdsnowden@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
