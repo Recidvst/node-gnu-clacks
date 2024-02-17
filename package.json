@@ -10,7 +10,7 @@
     "clacks",
     "terry pratchett"
   ],
-  "main": "index.js",
+  "main": "lib/express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
